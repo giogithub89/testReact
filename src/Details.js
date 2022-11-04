@@ -13,8 +13,8 @@ export default function Details() {
     }
 
     useEffect(() => {
-        const id = window.history.state.usr.id
-        plate(id)
+        
+        plate()
       
       }, [])
 
